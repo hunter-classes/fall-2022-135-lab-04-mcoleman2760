@@ -123,7 +123,7 @@ std::string c = "*";
 for(int row = 1; row <= height; row++){
 c = rowStart; 
 for(int col = 1; col <= width; col++){
-std::cout << c;
+s+= c;
 
 if(col % 3 == 0){
 if(c == "*")
